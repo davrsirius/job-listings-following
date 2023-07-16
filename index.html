@@ -1,19 +1,345 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Project</title>
+  <title>Job listings</title>
 
   <!-- Styles -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/styles.css">
 
 </head>
+
 <body>
+  <!-- SITE HEADER -->
+  <div class="site-header">
+    <img class="header-bg-img1" src="images/header-bg-img.svg" alt="">
+    <img class="header-bg-img2" src="images/header-bg-img.svg" alt="">
+  </div>
+  <!--MAIN CONTENT -->
+  <h1 class="visually-hidden">Job Listings</h1>
+
+  <main class="main-content">
+    <div class="container">
+      <h2 class="visually-hidden">Job offers list</h2>
+      <!-- Job listings -->
+      <ul class="job-listings-list">
+
+        <!-- Job listings item -->
+        <!-- Photosnap -->
+        <li class="job-listings-item job-listings-item-featured">
+          <img class="job-listings-logo" src="images/job-listings-company-images/photosnap.png" alt="Photosnap" srcset="images/job-listings-company-images/photosnap.png 1x, 
+          images/job-listings-company-images/photosnap@2x.png 2x">
+          <div class="job-listings-info">
+            <div class="job-listings-company-badges">
+              <div class="job-listings-company">
+                Photosnap
+              </div>
+              <div class="job-listings-badges">
+                <span class="job-listings--badge-item badge badge-green">New!</span>
+                <span class="job-listings--badge-item badge badge-dark">Featured</span>
+              </div>
+            </div>
+            <h3 class="job-listings-position">
+              <a class="job-listings-position-link" href="#">Senior Frontend Developer</a>
+            </h3>
+            <div class="job-listings-addl">
+              <div class="job-listings-addl-item">1d ago</div>
+              <div class="job-listings-addl-item">Full Time</div>
+              <div class="job-listings-addl-item">USA only</div>
+            </div>
+          </div>
+          <ul class="job-listings-tags">
+            <li class="job-listings-tags-item tag">Frontend</li>
+            <li class="job-listings-tags-item tag">Senior</li>
+            <li class="job-listings-tags-item tag">HTML</li>
+            <li class="job-listings-tags-item tag">CSS</li>
+            <li class="job-listings-tags-item tag">JavaScript</li>
+          </ul>
+        </li>
+
+        <!-- Manage -->
+        <li class="job-listings-item job-listings-item-featured">
+          <img class="job-listings-logo" src="images/job-listings-company-images/manage.png" alt="Manage" srcset="images/job-listings-company-images/manage.png 1x, 
+          images/job-listings-company-images/manage@2x.png 2x">
+          <div class="job-listings-info">
+            <div class="job-listings-company-badges">
+              <div class="job-listings-company">
+                Manage
+              </div>
+              <div class="job-listings-badges">
+                <span class="job-listings--badge-item badge badge-green">New!</span>
+                <span class="job-listings--badge-item badge badge-dark">Featured</span>
+              </div>
+            </div>
+            <h3 class="job-listings-position">
+              <a class="job-listings-position-link" href="#">Full Stack Developer</a>
+            </h3>
+            <div class="job-listings-addl">
+              <div class="job-listings-addl-item">1d ago</div>
+              <div class="job-listings-addl-item">Part Time</div>
+              <div class="job-listings-addl-item">Remote</div>
+            </div>
+          </div>
+          <ul class="job-listings-tags">
+            <li class="job-listings-tags-item tag">Fullstack</li>
+            <li class="job-listings-tags-item tag">Midweight</li>
+            <li class="job-listings-tags-item tag">Python</li>
+            <li class="job-listings-tags-item tag">React</li>
+          </ul>
+        </li>
+
+        <!-- Account -->
+        <li class="job-listings-item">
+          <img class="job-listings-logo" src="images/job-listings-company-images/account.png" alt="Account" srcset="images/job-listings-company-images/account.png 1x, 
+          images/job-listings-company-images/account@2x.png 2x">
+          <div class="job-listings-info">
+            <div class="job-listings-company-badges">
+              <div class="job-listings-company">
+                <!-- Account -->
+              </div>
+              <div class="job-listings-badges">
+                <span class="job-listings--badge-item badge badge-green">New!</span>
+              </div>
+            </div>
+            <h3 class="job-listings-position">
+              <a class="job-listings-position-link" href="#">Junior Frontend Developer</a>
+            </h3>
+            <div class="job-listings-addl">
+              <div class="job-listings-addl-item">2d ago</div>
+              <div class="job-listings-addl-item">Part Time</div>
+              <div class="job-listings-addl-item">USA only</div>
+            </div>
+          </div>
+          <ul class="job-listings-tags">
+            <li class="job-listings-tags-item tag">Frontend</li>
+            <li class="job-listings-tags-item tag">Junior</li>
+            <li class="job-listings-tags-item tag">React</li>
+            <li class="job-listings-tags-item tag">Sass</li>
+            <li class="job-listings-tags-item tag">JavaScript</li>
+          </ul>
+        </li>
+
+        <!-- My home -->
+        <li class="job-listings-item">
+          <img class="job-listings-logo" src="images/job-listings-company-images/myhome.png" alt="My home" srcset="images/job-listings-company-images/myhome.png 1x, 
+          images/job-listings-company-images/myhome.png 2x">
+          <div class="job-listings-info">
+            <div class="job-listings-company-badges">
+              <div class="job-listings-company">
+                My home
+              </div>
+              <div class="job-listings-badges">
+              </div>
+            </div>
+            <h3 class="job-listings-position">
+              <a class="job-listings-position-link" href="#">Junior Frontend Developer</a>
+            </h3>
+            <div class="job-listings-addl">
+              <div class="job-listings-addl-item">5d ago</div>
+              <div class="job-listings-addl-item">Contract</div>
+              <div class="job-listings-addl-item">USA only</div>
+            </div>
+          </div>
+          <ul class="job-listings-tags">
+            <li class="job-listings-tags-item tag">Frontend</li>
+            <li class="job-listings-tags-item tag">Junior</li>
+            <li class="job-listings-tags-item tag">CSS</li>
+            <li class="job-listings-tags-item tag">JavaScript</li>
+          </ul>
+        </li>
+
+        <!-- Loop studios -->
+        <li class="job-listings-item">
+          <img class="job-listings-logo" src="images/job-listings-company-images/loop-studious.png" alt="loop-studious"
+            srcset="images/job-listings-company-images/loop-studious.png 1x, 
+          images/job-listings-company-images/loop-studious@2x.png 2x">
+          <div class="job-listings-info">
+            <div class="job-listings-company-badges">
+              <div class="job-listings-company">
+                Loop Studious
+              </div>
+              <div class="job-listings-badges">
+              </div>
+            </div>
+            <h3 class="job-listings-position">
+              <a class="job-listings-position-link" href="#">Software Engineer</a>
+            </h3>
+            <div class="job-listings-addl">
+              <div class="job-listings-addl-item">1w ago</div>
+              <div class="job-listings-addl-item">Full Time</div>
+              <div class="job-listings-addl-item">Worldwide</div>
+            </div>
+          </div>
+          <ul class="job-listings-tags">
+            <li class="job-listings-tags-item tag">Fullstact</li>
+            <li class="job-listings-tags-item tag">Midweight</li>
+            <li class="job-listings-tags-item tag">JavaScript</li>
+            <li class="job-listings-tags-item tag">Sass</li>
+            <li class="job-listings-tags-item tag">Ruby</li>
+          </ul>
+        </li>
+
+        <!-- Faceit -->
+        <li class="job-listings-item">
+          <img class="job-listings-logo" src="images/job-listings-company-images/face-it.png" alt="Faceit" 
+          srcset="images/job-listings-company-images/face-it.png 1x,
+            images/job-listings-company-images/face-it@2x.png 2x">
+          <div class="job-listings-info">
+            <div class="job-listings-company-badges">
+              <div class="job-listings-company">
+                Faceit
+              </div>
+              <div class="job-listings-badges">
+              </div>
+            </div>
+            <h3 class="job-listings-position">
+              <a class="job-listings-position-link" href="#">Junior Backend Developer</a>
+            </h3>
+            <div class="job-listings-addl">
+              <div class="job-listings-addl-item">2w ago</div>
+              <div class="job-listings-addl-item">Full Time</div>
+              <div class="job-listings-addl-item">UK only</div>
+            </div>
+          </div>
+          <ul class="job-listings-tags">
+            <li class="job-listings-tags-item tag">Backend</li>
+            <li class="job-listings-tags-item tag">Junior</li>
+            <li class="job-listings-tags-item tag">Rub</li>
+            <li class="job-listings-tags-item tag">RoR</li>
+          </ul>
+        </li>
 
 
+        <!-- Shortly -->
+        <li class="job-listings-item">
+          <img class="job-listings-logo" src="images/job-listings-company-images/shortly.png" alt="Shortly" srcset="images/job-listings-company-images/shortly.png 1x, 
+          images/job-listings-company-images/shortly@2x.png 2x">
+          <div class="job-listings-info">
+            <div class="job-listings-company-badges">
+              <div class="job-listings-company">
+                Shortly
+              </div>
+              <div class="job-listings-badges">
+              </div>
+            </div>
+            <h3 class="job-listings-position">
+              <a class="job-listings-position-link" href="#">Senior Frontend Developer</a>
+            </h3>
+            <div class="job-listings-addl">
+              <div class="job-listings-addl-item">1d ago</div>
+              <div class="job-listings-addl-item">Full Time</div>
+              <div class="job-listings-addl-item">USA only</div>
+            </div>
+          </div>
+          <ul class="job-listings-tags">
+            <li class="job-listings-tags-item tag">Frontend</li>
+            <li class="job-listings-tags-item tag">Senior</li>
+            <li class="job-listings-tags-item tag">HTML</li>
+            <li class="job-listings-tags-item tag">Sass</li>
+            <li class="job-listings-tags-item tag">JavaScript</li>
+          </ul>
+        </li>
+
+        <!-- Insure -->
+        <li class="job-listings-item">
+          <img class="job-listings-logo" src="images/job-listings-company-images/insure.png" alt="insure" srcset="images/job-listings-company-images/insure.png 1x, 
+          images/job-listings-company-images/insure@2x.png 2x">
+          <div class="job-listings-info">
+            <div class="job-listings-company-badges">
+              <div class="job-listings-company">
+                Insure
+              </div>
+              <div class="job-listings-badges">
+              </div>
+            </div>
+            <h3 class="job-listings-position">
+              <a class="job-listings-position-link" href="#">Junior Frontend Developer</a>
+            </h3>
+            <div class="job-listings-addl">
+              <div class="job-listings-addl-item">2w ago</div>
+              <div class="job-listings-addl-item">Full Time</div>
+              <div class="job-listings-addl-item">USA only</div>
+            </div>
+          </div>
+          <ul class="job-listings-tags">
+            <li class="job-listings-tags-item tag">Frontend</li>
+            <li class="job-listings-tags-item tag">Junior</li>
+            <li class="job-listings-tags-item tag">Vue</li>
+            <li class="job-listings-tags-item tag">JavaScript</li>
+            <li class="job-listings-tags-item tag">Sass</li>
+          </ul>
+        </li>
+
+        <!-- Eyecam Co -->
+        <li class="job-listings-item">
+          <img class="job-listings-logo" src="images/job-listings-company-images/eyecam.png" alt="eyecam" srcset="images/job-listings-company-images/eyecam.png 1x, 
+          images/job-listings-company-images/eyecam@2x.png 2x">
+          <div class="job-listings-info">
+            <div class="job-listings-company-badges">
+              <div class="job-listings-company">
+                Eyecam Co.
+              </div>
+              <div class="job-listings-badges">
+              </div>
+            </div>
+            <h3 class="job-listings-position">
+              <a class="job-listings-position-link" href="#">Full Stack Engineer</a>
+            </h3>
+            <div class="job-listings-addl">
+              <div class="job-listings-addl-item">3w ago</div>
+              <div class="job-listings-addl-item">Full Time</div>
+              <div class="job-listings-addl-item">Wordlide</div>
+            </div>
+          </div>
+          <ul class="job-listings-tags">
+            <li class="job-listings-tags-item tag">Fullstack</li>
+            <li class="job-listings-tags-item tag">Midweight</li>
+            <li class="job-listings-tags-item tag">JavaScript</li>
+            <li class="job-listings-tags-item tag">Django</li>
+            <li class="job-listings-tags-item tag">Python</li>
+          </ul>
+        </li>
+
+        <!-- The Air Filter Company -->
+        <li class="job-listings-item">
+          <img class="job-listings-logo" src="images/job-listings-company-images/air-filter.png" alt="air-filter"
+            srcset="images/job-listings-company-images/air-filter.png 1x, 
+          images/job-listings-company-images/air-filter@2x.png 2x">
+          <div class="job-listings-info">
+            <div class="job-listings-company-badges">
+              <div class="job-listings-company">
+                The Air Filter Company
+              </div>
+              <div class="job-listings-badges">
+              </div>
+            </div>
+            <h3 class="job-listings-position">
+              <a class="job-listings-position-link" href="#">Front-end Dev</a>
+            </h3>
+            <div class="job-listings-addl">
+              <div class="job-listings-addl-item">1mo ago</div>
+              <div class="job-listings-addl-item">Part Time</div>
+              <div class="job-listings-addl-item">Wordlide</div>
+            </div>
+          </div>
+          <ul class="job-listings-tags">
+            <li class="job-listings-tags-item tag">Frontend</li>
+            <li class="job-listings-tags-item tag">Junior</li>
+            <li class="job-listings-tags-item tag">React</li>
+            <li class="job-listings-tags-item tag">Sass</li>
+            <li class="job-listings-tags-item tag">JavaScript</li>
+          </ul>
+        </li>
+
+
+      </ul>
+    </div>
+  </main>
   <script src="js/main.js"></script>
 </body>
+
 </html>
