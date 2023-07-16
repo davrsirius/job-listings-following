@@ -185,6 +185,11 @@ img {
   margin-right: 24px;
 }
 
+.job-listings-logo-wide {
+  width: 94px;
+  height: 88px;
+}
+
 .job-listings-info {
   flex-grow: 1;
   margin-right: 24px;
